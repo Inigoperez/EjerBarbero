@@ -1,9 +1,11 @@
 package com.company;
 
 public class Clientes implements Runnable{
+
     boolean afeitado;
     Barberia barberia;
     String nombre;
+
     public Clientes(Barberia barberia,String nombre) {
         this.barberia = barberia;
         this.afeitado = false;

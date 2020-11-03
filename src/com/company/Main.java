@@ -11,7 +11,7 @@ public class Main {
 
         Barberia barberia = new Barberia();
         Barbero barbero = new Barbero();
-            barbero.run();
+        barbero.run();
         while (true){
             i++;
             nombre = nombre+i;
